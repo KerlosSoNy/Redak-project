@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- icon Of The Page And title -->
+    <link rel="icon" href="Pic/first/navbrand.png">
+    <Title>Redak</Title>
+    <!-- icon Of The Page And title -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Description of the page and title">
+    <meta charset="UTF-8">
+
+    <!-- Style Sheets Css And Bootstrab -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="Css/index.css">
+    <link rel="stylesheet" href="Css/media.css">
+    <!-- Style Sheets Css And Bootstrab -->
+
+</head>
+
+<body id="body" class="bg-light text-dark">
+    <!-- Nav Bar Section -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navtop">
+        <div class="container-fluid ">
+            <a href="#imgfortoppage" class="navbar-brand ms-3 ms-lg-5">
+                <img id="logoofpage" src="pic/first/navbrand.png" width="35" height="35">
+            </a>
+            <a href="#imgfortoppage" class="navbar-brand ms-2 ms-lg-1">
+                <span class="fw-bolder text-Warning" id="navbrand">RE<span style="color: red;">D</span>AK</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar Links -->
+            <div class="collapse navbar-collapse justify-content-end align-center" id="navbarSupportedContent">
+                <ul class="navbar-nav fw-bold sm-mt-3">
+                    <li class="nav-item mx-3 mx-lg-5">
+                        <a id="navitems" href="#doctors" class="nav-link active text-Warning">Doctors</a>
+                    </li>
+                    <li class="nav-item mx-3 mx-lg-5">
+                        <a id="navitems" href="#patient" class="nav-link active text-Warning">Patient</a>
+                    </li>
+                    <li class="nav-item mx-3 mx-lg-5">
+                        <a id="navitems" href="#" class="nav-link active text-Warning">Hospitals</a>
+                    </li>
+                    <li class="nav-item mx-3 mx-lg-5">
+                        <a id="navitems" href="#" class="nav-link active text-Warning">Pharmacy</a>
+                    </li>
+                    <li class="nav-item mx-3 d-sm-bolck d-lg-none">
+                        <a id="phonebttn" href="/branchPages/choosing/choosing.html" class="nav-link active text-primary">Log in</a>
+                    </li>
+                    <li id="" class="nav-item mx-3 d-sm-block d-lg-none">
+                        <a id="phonebttn" href="/branchPages/choosing-sign/choosing.html" class="nav-link active text-primary">Sign Up</a>
+                    </li>
+                    <li class="nav-item mx-3 d-sm-block d-lg-none">
+                        <button id="darkmodesm" style="background-color: transparent; border: none;">
+                            <img src="pic/first/dark-mode.png" alt="dark-mode" style="width: 2rem; height: 2rem;">
+                        </button>
+                    </li>
+                </ul>
+            </div>
+            <div class="collapse navbar-collapse justify-content-end align-center" id="navbarSupportedContent">
+                <ul class="navbar-nav fw-bold sm-mt-3">
+                    <li class="nav-item mx-3 d-none d-lg-inline">
+                        <a href="/branchPages/choosing/choosing.html" class="btn btn-outline-primary fw-bold ">Log in</a>
+                    </li>
+                    <li class="nav-item mx-3 d-none d-lg-inline">
+                        <a href="/branchPages/choosing-sign/choosing.html" class="btn btn-outline-primary fw-bold ">Sign Up</a>
+                    </li>
+                    <li class="nav-item mx-3 d-none d-lg-inline mt-1">
+                        <button id="darkmodelg" style="background-color: transparent; border: none;">
+                            <img src="pic/first/dark-mode.png" alt="dark-mode" style="width: 2rem; height: 2rem;">
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--  -->
+
+    <!-- Image Of The Home Page -->
+    <div class="container-fluid position-relative p-0 mb-3" id="imgfortoppage">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="Pic/first/1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="Pic/first/2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="Pic/first/3.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div id="joinus" class="container position-absolute top-50 start-50 translate-middle">
+            <div class="row">
+                <div class="col text-center">
+                    <p id="betterpragraph" class="text-center fw-bold fs-sm-4 fs-1 "><mark> Better Medical For A<br>Better World</mark></p>
+                    <a id="bttn" type="button" class="btn btn-primary btn-lg">Join Us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  -->
+
+    <!-- Cards Sections -->
+    <div class="container-xl" id="cardsContainer">
+        <div class="row">
+            <div class="col-sm-6 col-md-6 col-lg-3 text-center shadow-sm p-3 mb-5 bg-body rounded darkback">
+                <div id="cards" class="card me-1">
+                    <img src="Pic/cards/pharmacy.jpg" class="card-img-top" alt="Pharmacies">
+                    <div class="card-body">
+                        <h5 class="card-title">Pharmacies</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small><a class="text-muted" href="">Learn More</a></small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-3 text-center shadow-sm p-3 mb-5 bg-body rounded darkback">
+                <div id="cards" class="card me-1">
+                    <img src="Pic/cards/doctors.jpg" class="card-img-top" alt="Call a doctor">
+                    <div class="card-body">
+                        <h5 class="card-title">Call a doctor</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small><a class="text-muted" href="">Learn More</a></small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-3 text-center shadow-sm p-3 mb-5 bg-body rounded darkback">
+                <div id="cards" class="card me-1">
+                    <img src="Pic/cards/emergency.jpg" class="card-img-top" alt="Emergency">
+                    <div class="card-body">
+                        <h5 class="card-title">Emergency</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small><a class="text-muted" href="">Learn More</a></small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-3 text-center shadow-sm p-3 mb-5 bg-body rounded darkback">
+                <div id="cards" class="card">
+                    <img src="Pic/cards/hopital.jpg" class="card-img-top" alt="Hospitals">
+                    <div class="card-body">
+                        <h5 class="card-title">Hospitals</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small><a class="text-muted" href="">Learn More</a></small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  -->
+
+    <!-- Section For Doctor Part -->
+    <div id="doctors" class="container-xl reveal fade-left mt-5 mb-5 darkmood">
+        <div class="row">
+            <div class="col">
+                <h2 class="fw-bolder ms-4 mb-2">Doctors</h2>
+            </div>
+        </div>
+        <div id="row2_Section_Doctor" class="row p-2 justify-content-center align-items-center">
+            <div id="clip-path-of-pic" class="col-10 col-md-6 col-lg-8">
+                <img class="mb-1" id="row2_Section_Doctor_img" src="Pic/docotrsection/doctor.jpg" alt="Doctors Working" srcset="">
+            </div>
+            <div class="col-10 col-md-5 col-lg-4">
+                <p class="fs-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio error voluptatem eaque, maiores maxime illo voluptatibus facilis consectetur magni provident consequatur modi magnam eos fugit saepe tempore placeat dolor nostrum?
+                    <br><small><a class="text-muted mt-4" href="">Join Us</a></small>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!--  -->
+
+    <!--  Helpful information Section -->
+    <div style="background-color: #E9ECEF;" class="container-fluid justify-content-center mt-5 p-5 text-center darkback2 d-none d-md-block d-lg-block">
+        <div class="row justify-content-center">
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="true" data-bs-interval="false" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="alert mt-5" role="alert">
+                                <h2 class="alert-heading fs-2">Helpful information</h2>
+                                <h5 class="alert-heading fs-3">Consume less salt and sugar</h5>
+                                <p class="fs-4 p-sm-0 pe-lg-5 ps-lg-5">Filipinos consume twice the recommended amount of sodium, putting them at risk of high blood pressure, which in turn increases the risk of heart disease and stroke. Most people get their sodium through salt. Reduce your
+                                    salt intake to 5g per day, equivalent to about one teaspoon. It’s easier to do this by limiting the amount of salt, soy sauce, fish sauce and other high-sodium condiments when preparing meals; removing salt, seasonings
+                                    and condiments from your meal table; avoiding salty snacks; and choosing low-sodium products.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="alert mt-5" role="alert">
+                                <h2 class="alert-heading fs-2">Helpful information</h2>
+                                <h5 class="alert-heading fs-3">Drink only safe water</h5>
+                                <p class="fs-4 p-sm-0 pe-lg-5 ps-lg-5">Drink Unsafe Water can lead to water-borne diseases such as cholera, diarrhoea, hepatitis A, typhoid and polio. Globally, at least 2 billion people use a drinking water source contaminated with faeces. Check with your water
+                                    concessionaire and water refilling station to ensure that the water you’re drinking is safe. In a setting where you are unsure of your water source, boil your water for at least one minute. This will destroy harmful
+                                    organisms in the water. Let it cool naturally before drinking.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="alert mt-5" role="alert">
+                                <h2 class="alert-heading fs-2">Helpful information</h2>
+                                <h5 class="alert-heading fs-3">Consume less salt and sugar</h5>
+                                <p class="fs-4 p-sm-0 pe-lg-5 ps-lg-5">Filipinos consume twice the recommended amount of sodium, putting them at risk of high blood pressure, which in turn increases the risk of heart disease and stroke. Most people get their sodium through salt. Reduce your
+                                    salt intake to 5g per day, equivalent to about one teaspoon. It’s easier to do this by limiting the amount of salt, soy sauce, fish sauce and other high-sodium condiments when preparing meals; removing salt, seasonings
+                                    and condiments from
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  -->
+
+    <!-- Section For Patient Part -->
+    <div id="patient" class="container-xl reveal fade-right mt-4 mb-2 darkmood">
+        <div id="row2_Section_Doctor" class="row p-2 justify-content-between align-items-center">
+            <div class="col-10 col-md-5 col-lg-4">
+                <h2 id="doctors" class="fw-bolder ms-3 mb-5">Patient</h2>
+                <p class="fs-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio error voluptatem eaque, maiores maxime illo voluptatibus facilis consectetur magni provident consequatur modi magnam eos fugit saepe tempore placeat dolor nostrum?
+                    <br><small><a class="text-muted mt-4" href="#">Join Us</a></small>
+                </p>
+            </div>
+            <div class="col-10 col-md-6 col-lg-7">
+                <img class="mb-1" id="row2_Section_Patient_img" src="Pic/Patient_Section/beyond.jpg" alt="">
+            </div>
+
+        </div>
+    </div>
+    <!--  -->
+
+    <!-- Section For Hospitals And Pharmacyies -->
+    <div class="container-fluid reveal mt-5 mb-5 ">
+        <div class="row text-center">
+            <div class="col">
+                <h3 class="fw-bolder text-dark m-3 darkmood1">Hospitals & Pharmacy</h3>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="card text-white me-1 mb-3 reveal fade-right position-relative" style="max-width: 18rem;background-color: #343A40;">
+                <div class="card-header">Hospital</div>
+                <div class="card-body">
+                    <h5 class="card-title">Coptic Hospital</h5>
+                    <p class="card-text text-warning">Address: Ramsis st. extension - beside NBE branch - Cairo القاهرة, 11432</p>
+                </div>
+            </div>
+            <div class="card text-white   me-1 mb-3 reveal fade-left position-relative" style="max-width: 18rem;background-color: #343A40;">
+                <div class="card-header">Hospital</div>
+                <div class="card-body">
+                    <h5 class="card-title">Cairo University Hospitals</h5>
+                    <p class="card-text text-warning">Located in: Faculty Of Medicine Kasr Al-Ainy Cairo University Address: Old Cairo, Cairo Governorate</p>
+                </div>
+            </div>
+            <div class="card text-white  mb-3 reveal fade-right position-relative" style="max-width: 18rem;background-color: #343A40;">
+                <div class="card-header">Hospital</div>
+                <div class="card-body">
+                    <h5 class="card-title">El Hussein University Hospital</h5>
+                    <p class="card-text text-warning">Address: جوهر القائد، Ad، El-Darb El-Ahmar, Cairo Governorate</p>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="card text-white  me-1 mb-3 reveal fade-right position-relative" style="max-width: 18rem;background-color: #343A40;">
+                <div class="card-header">Pharmacy</div>
+                <div class="card-body">
+                    <h5 class="card-title">El Ezaby Pharmacy</h5>
+                    <p class="card-text text-warning">Address: Ramsis Square Egypt train station, Shop 104 A، Al Fagalah, Al Azbakeya, Cairo Governorate 11522</p>
+                    <a class="position-absolute bottom-0 end-0 mb-3 me-3" href="tel:0235317347"><img src="pic/first/phone-call.png" alt="phone-call" style="width: 2rem; height: 2rem;"></a>
+                </div>
+            </div>
+            <div class="card text-white  me-1 mb-3 reveal fade-left position-relative" style="max-width: 18rem;background-color: #343A40;">
+                <div class="card-header">Pharmacy</div>
+                <div class="card-body">
+                    <h5 class="card-title">Abdeen Pharmacy</h5>
+                    <p class="card-text text-warning">Address: 93 Mohamed Farid St.، ABDIN، Abdeen, Cairo Governorate</p>
+                    <a class="position-absolute bottom-0 end-0 mb-3 me-3" href="tel:0223915462"><img src="pic/first/phone-call.png" alt="phone-call" style="width: 2rem; height: 2rem;"></a>
+                </div>
+            </div>
+            <div class="card text-white  mb-3 reveal fade-right position-relative" style="max-width: 18rem;background-color: #343A40;">
+                <div class="card-header">Pharmacy</div>
+                <div class="card-body">
+                    <h5 class="card-title">Delmar & Attalla Pharmacies</h5>
+                    <p class="card-text text-warning">Address: 79 26 July St, Boulaq Num.3, Bulaq, Cairo Governorate</p>
+                    <a class="position-absolute bottom-0 end-0 mb-3 me-3" href="tel:01002199551"><img src="pic/first/phone-call.png" alt="phone-call" style="width: 2rem; height: 2rem;"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  -->
+
+    <!-- Contact US  -->
+    <div class="container w-100 w-lg-50">
+        <div class="row">
+            <div id="contactUs" class="row ms-1 mt-5 shadow mb-5 rounded bg-light text-dark">
+                <div class="col-12 col-lg-7">
+                    <div class="border-bottom mb-4 text-center">
+                        <h1 class="text-danger fw-light m-4">
+                            Write Us
+                        </h1>
+                        <p class="mt-3 fw-bold">We will Be Happy To Receive Your Inquiries And Suggestions.</p>
+                    </div>
+                    <div class="row align-items-center mb-3 justify-content-between">
+                        <div class="col-12 col-lg-6">
+                            <label for="inputPassword6" class="col-form-label">Your Name<span
+                                    style="color: red;">*</span></label>
+                            <input type="text" placeholder="Full Name" id="" class="form-control" aria-describedby="">
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <label for="" class="col-form-label">Email Adress<span style="color: red;">*</span></label>
+                            <input placeholder="Email" type="" id="" class="form-control" aria-describedby="">
+                        </div>
+                        <div class="col-12 col-lg-12">
+                            <label for="" class="col-form-label">Comments<span style="color: red;">*</span></label>
+                            <textarea class="form-control" id="w3review" name="w3review" rows="5"></textarea>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <button type="button" class="btn btn-primary m-3 send-mail rounded-pill " style="width:150px">Send</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-5 text-center bg-primary text-light">
+                    <!-- Links -->
+                    <h1 class="fw-light m-4">
+                        Contact Us
+                    </h1>
+                    <h3 class="fw-light mt-5 mb-5">Cario, Maadie, Eg</h3>
+                    <div class="mt-5">
+                        <p class=" mt-5 mb-5 fs-3"> <a href="email:KerO@yahoo.com" class="text-decoration-none text-light fs-4"><span>Email: </span>info@example.com</a></p>
+                        <p class=" mt-5 mb-5 fs-3">
+                            <a href="tel:01124567288" class="text-decoration-none text-light fs-4"> <span>Phone: </span>+0112 456 7288</a>
+                        </p>
+                        <p class=" mt-5 mb-5 fs-3">
+                            <a href="tel:01124567288" class="text-decoration-none text-light fs-4"> <span>Phone: </span>+0101 956 7225</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact US  -->
+
+    <!-- Footer -->
+    <footer id="footer" class="text-center text-lg-start bg-light text-muted mt-5">
+        <!-- Section: Links  -->
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
+                        <h3 class="text-uppercase fw-bold mb-4">
+                            <img src="pic/first/navbrand.png" style="width: 2rem; height: 2rem;" class="me-2 mb-2" alt="">RE<span style="color: red;">D</span>AK
+                        </h3>
+                        <p>
+                            Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Locations
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Hospitals</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Pharmacy</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">clinic</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Emergency</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Useful links
+                        </h6>
+                        <p>
+                            <a href="branchPages/agreement.html" class="text-reset">Privacy Agreement</a>
+                        </p>
+                        <p>
+                            <a href="branchPages/terms&conditions.html" class="text-reset">Terms and Conditions</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2022 Copyright:
+            <a class="text-reset fw-bold" href="#">REDAK Group</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+    <!-- script of Bootstrab -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js " integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM " crossorigin="anonymous "></script>
+    <script src="js/index.js "></script>
+    <script src="js/dark.js "></script>
+    <!-- script of Bootstrab -->
+</body>
+
+</html>
